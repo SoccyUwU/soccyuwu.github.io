@@ -2,21 +2,125 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="author" content="Yunfan Zhang"/>
-    <meta name="description" content="a short experiment on HTML for now"/>
-    <meta property="og:image" content="https://cdn.discordapp.com/emojis/1081717743352565791.webp?size=160&quality=lossless"/>
-    <meta property="og:description" content="One man's you need therapy is another man's you're so real"/>
-    <meta property="og:title" content="There's a saying that goes:"/>
-    <link rel="icon" href="fat%20cirno.jpg" type="image/x-icon"/>
+    <meta content="Yunfan Zhang" name="author"/>
+    <meta content="a short experiment on HTML for now" name="description"/>
+    <meta content="https://cdn.discordapp.com/emojis/1081717743352565791.webp?size=160&quality=lossless"
+          property="og:image"/>
+    <meta content="One man's you need therapy is another man's you're so real" property="og:description"/>
+    <meta content="There's a saying that goes:" property="og:title"/>
+    <link href="fat%20cirno.jpg" rel="icon" type="image/x-icon"/>
     <title>Yunfan Zhang Resume</title>
 </head>
+
 <body>
 <h1>
     <!-- Wow images look ugly -->
-    Big Things Coming <img src="https://cdn.discordapp.com/emojis/1081717743352565791.webp?size=160&quality=lossless"
-                           alt="The character peepo is smiling amicably towards the viewer."
-                            width="40" height="25">
+    Big Things Coming
 </h1>
-<p>This is <strong>insane</strong>. Can you believe this is even a page?</p>
-<p>If you can't, please visit <a href="https://unicodesnowmanforyou.com">this awesome website</a> to find out more.</p>
+
+<nav>
+    <h2>Navigation</h2>
+    <menu>
+        <li><a href="https://syzygy.soccpuppet.com/mekCalc" title="Mekanism Calculator">
+            <img height="30" src="mekv10.webp" width="30"/>
+        </a></li>
+        <li><a href="https://syzygy.soccpuppet.com" title="soccpuppet homepage">
+            <img height="30" src="https://cdn.discordapp.com/emojis/1081717743352565791.webp?size=160&quality=lossless"
+                 width="30"/>
+        </a></li>
+    </menu>
+</nav>
+
+<main>
+    <article>
+        <h2>Musings</h2>
+        <p>This is <strong>insane</strong>. Can you believe this is even a page?</p>
+        <p>If you <em>can't</em>, please visit
+            <a href="https://unicodesnowmanforyou.com" title="Good job hovering a link">
+                this awesome website
+            </a> to <sup>find</sup> <sub>out</sub> <sup>more.</sup></p>
+        <p id="christmas">Can you believe it guys? Christmas! Just a week away!</p>
+        <ul>
+            <li>I can't believe it wow Christmas really is just a week away got damn</li>
+            <li>
+                No way isn't Christmas in like 15 months
+                <ol>
+                    <li>Christmas is actually only 7 months ago</li>
+                    <li>How would it even be 15 months away dingus</li>
+                </ol>
+            </li>
+            <li>True I'm trueing rn you're so right about that</li>
+        </ul>
+        <p>Steps to celebrate pride months:</p>
+        <ol>
+            <li>Locate the nearest queer person.</li>
+            <li>Cover them in holiday cheer.</li>
+            <li>The police has no evidence</li>
+            <li>The charge gets cold.</li>
+        </ol>
+        <p>Apparently the following is a menu instead of an <a href="#christmas">unordered list?</a></p>
+        <menu>
+            <li>What is even the difference</li>
+            <li>Can you tell?</li>
+            <li>Intellij renders it slightly differently (more padding) wow</li>
+        </menu>
+        <p>Are these berries???</p>
+        <a href="https://en.wikipedia.org/wiki/Berry" title="No they're not dumb shit">
+            <img height="200" src="fat%20cirno.jpg" width="300"/>
+        </a>
+        <p>A wise saying goes:</p>
+        <blockquote cite="https://syzygy.soccpuppet.com/resume">
+            One man's you need therapy is another man's you're so real.
+        </blockquote>
+    </article>
+
+    <hr/>
+
+    <article>
+        <h2>Term Definitions</h2>
+        <dl>
+            <dt><abbr title="Mekanism">Mek</abbr></dt>
+            <dd>A Minecraft mod with over 100 million downloads.</dd>
+            <dt>Berries</dt>
+            <dd>Small, plush, usually edible fruit. NOT a fumo.</dd>
+        </dl>
+    </article>
+
+    <article>
+        <h2>A Nice Poem</h2>
+        <p>
+            How about, <br/>
+            A nice cup <br/>
+            of Liber-tea?
+        </p>
+    </article>
+
+    <aside>
+        <h2>Very Good Line of Code</h2>
+        <code>
+            std::for_each(board, board + x_dim * y_dim, [&](char& a) {static int c; if (a % 0x10 == 0x9) [&]() {
+            std::vector&lt;char*&gt;&amp;
+            fuck = [&]() -> std::vector&lt;char*&gt;&{static std::vector&lt;char*&gt; b; b.clear(); std::for_each(board,
+            board + 3, [&](auto& y) {static int dx;std::for_each(board, board + 3, [&](auto& z) {static int dy;if ((dx
+            != 1
+            || dy != 1) && [&, x_dim, y_dim, board](auto x) {return 0 <= x && x < x_dim * y_dim && *(board + x) % 0x10
+            !=
+            0x9 && getXY(board, c % x_dim + dx - 1, c / x_dim + dy - 1, x_dim, y_dim) != nullptr; }(c + dx - 1 + (dy -
+            1) *
+            x_dim))b.push_back(board + c + (dx - 1) + (dy - 1) * x_dim);++dy; dy %= 3;}); ++dx; dx %= 3;}); return
+            b;}();std::for_each(fuck.begin(), fuck.end(), [](char* tile) {++(*tile); });}(); ++c; });
+        </code>
+        <p>Static variables such as <var>int c</var> are used to retain value over a lambda</p>
+        <p>Press <kbd>Ctrl</kbd> to continue</p>
+        <p>This will output &crarr;</p>
+        <p>
+            <samp>
+                WAS THAT THE BITE OF 87???
+            </samp>
+        </p>
+        <p>This bit of code was written on
+            <time datetime="2023-09-28">Liberty Day</time>
+        </p>
+    </aside>
+</main>
 </body>
