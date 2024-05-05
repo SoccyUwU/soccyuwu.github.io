@@ -1,0 +1,64 @@
+body{
+    font-family: Segoe Print;
+}
+
+h1 {
+    color: red;
+    font-family: "Segoe Script";
+}
+
+h2 {
+    color: green;
+    font-family: Monocraft, Arial, sans-serif;
+}
+
+h2 + p {
+    font-size: 2em;
+    color: purple;
+    text-align: justify;
+}
+
+a:hover{
+    font-weight: 1000;
+    font-style: italic;
+    text-decoration: underline overline;
+    background: red;
+}
+
+ol li {
+    list-style-type: decimal-leading-zero;
+}
+
+.wise-quote {
+    color: coral;
+    font-style: oblique;
+}
+
+.link-list {
+    text-align: center;
+}
+
+ul li {
+    list-style-type: armenian;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.image-box {
+    border: 10px ridge red;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.image-box p {
+    text-decoration: underline overline;
+    text-align: center;
+}
+
+.image-box img {
+    border: red;
+    align-self: center;
+}
