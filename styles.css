@@ -1,28 +1,31 @@
 body{
-    font-family: Segoe Print;
+    font-family: "Times New Roman", sans-serif;
+    background:#F0F0F0;
 }
 
 h1 {
-    color: red;
-    font-family: "Segoe Script";
+    color: darkgreen;
+    font-family: "Helvetica", sans-serif;
 }
 
 h2 {
     color: green;
-    font-family: Monocraft, Arial, sans-serif;
-}
-
-h2 + p {
-    font-size: 2em;
-    color: purple;
-    text-align: justify;
+    font-family: Arial, sans-serif;
 }
 
 a:hover{
     font-weight: 1000;
-    font-style: italic;
     text-decoration: underline overline;
-    background: red;
+    background: lightcyan;
+    color:seagreen;
+    transform:rotate(100deg)
+}
+a{
+    color:seagreen;
+    text-decoration:underline;
+}
+a:visited{
+    color:blue;
 }
 
 ol li {
@@ -38,12 +41,44 @@ ol li {
     text-align: center;
 }
 
-ul li {
-    list-style-type: armenian;
+menu.nav {
+    padding-left:0;
+    background:darkgreen;
+    text-align: center;
+}
+menu.nav li{
+    display:inline-block;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+menu.nav li:hover{
+    background:darkcyan;
+}
+menu.nav li a{
+    color:white;
+}
+menu.nav li a:hover{
+    color:white;
+    background:darkcyan;
 }
 
-body {
-    background-color: lightcyan;
+menu.socials {
+    padding-left:0;
+    background:green;
+    text-align: center;
+}
+menu.socials li{
+    display:inline-block;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+menu.socials li:hover{
+    background:darkcyan;
+}
+menu.socials li a{
+    color:white;
+}
+menu.socials li a:hover{
+    color:white;
+    background:darkcyan;
 }
 
 .image-box {
@@ -61,4 +96,12 @@ body {
 .image-box img {
     border: red;
     align-self: center;
+}
+
+code{
+    color:white;
+}
+div.code-block{
+    background:black;
+    padding-left:0;
 }
