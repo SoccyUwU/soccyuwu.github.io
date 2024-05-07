@@ -14,39 +14,20 @@
 </head>
 
 <body>
-<h1 style=text-align:center>
-    <!-- Wow images look ugly -->
-    Yunfan Zhang (SoccPuppet)
-</h1>
-
 <nav>
-    <menu class="nav">
+    <menu class="navigation">
+        <!-- Remember to add a corporate-appropriate icon once I get one somehow -->
+        <li class="name">Yunfan Zhang (SoccPuppet)</li>
         <li style="color:white">
             Homepage
         <li>
             <a href="https://syzygy.soccpuppet.com/mekCalc" title="Mekanism Calculator">
                 Mekanism Calculator
-            </a></li>
-    </menu>
-    <menu class="socials">
-        <li>
-            <a href="https://github.com/SoccyUwU" title="My github">
-                Github
             </a>
         </li>
         <li>
-            <a href="https://socc-puppet.itch.io/" title="My itch.io">
-                Itch
-            </a>
-        </li>
-        <li>
-            <a href="mailto:soccpuppet@duck.com" title="Send me an email">
-                Email
-            </a>
-        </li>
-        <li>
-            <a href="https://bsky.app/profile/soccpuppet.bsky.social" title="My bluesky">
-                Bluesky
+            <a href="https://syzygy.soccpuppet.com/resume" title="Resume">
+                Resume
             </a>
         </li>
     </menu>
@@ -58,9 +39,11 @@
         <p>
             My name is a mystery to which a high bounty has been applied. If you can find it, email me and let me
             know. <br/>
-            I use It/Its pronouns (won't kill you if referred to with he/him, but expect a chargeback of $500 in three
+            I use
+            <!-- TODO: ADD THIS BACK WHEN THEY STOP LOOKING<a href="https://en.pronouns.page/@soccpuppet">It/Its</a>-->
+            It/Its pronouns (won't kill you if referred to with he/him but expect a chargeback of $500 in three
             business days), my hobbies are plain as day on this page, and my income report is in Aisle 7 Shelf 2
-            on the right. <br/> <!-- TODO: change this pronoun after upload god my family is tiring -->
+            on the right. <br/>
         </p>
         <p>
             Currently attending the <a href="https://uwaterloo.ca">University of Waterloo</a>, studying computer
@@ -69,12 +52,26 @@
             Interests are tremendously varied, niche, and useless:
         </p>
 
-        <div class="link-list">
-            <p>
-                <a href="https://corndog.io" title="corndogs dawg">Corndogs</a> |
-                <a href="https://helldivers.io" title="we are truly diving in hell">Helldivers</a> |
-                <a href="https://burtleburtle.net/bob/rand/isaac.html" title="rng">RNG</a>
-            </p>
+        <div class="slider">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="image-container">
+                <a href="https://uiua.org" title="The uiua Programming Language">
+                    <img src="uiua.png" class="slide" width="500" height="300"/>
+                </a>
+                <a href="https://corndog.io" title="The corndog pile does not stop from getting taller">
+                    <img src="corndog.png" class="slide" width="500" height="300"/>
+                </a>
+                <a href="https://helldivers.io" title="Tracking Helldivers 2 player spread">
+                    <img src="hd2.png" class="slide" width="500" height="300"/>
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
         </div>
     </article>
 
@@ -128,19 +125,42 @@
         </p>
     </aside>
 
-    <article>
-        <h2>
+    </menu>
+    <menu class="socials">
+        <li class="contact-category">
+            Contacts
+            <ul>
+                <li>
+                    <a href="https://github.com/SoccyUwU" title="My github">
+                        Github
+                    </a>
+                </li>
+                <li>
+                    <a href="https://socc-puppet.itch.io/" title="My itch.io">
+                        Itch
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:soccpuppet@duck.com" title="Send me an email">
+                        Email
+                    </a>
+                </li>
+                <li>
+                    <a href="https://bsky.app/profile/soccpuppet.bsky.social" title="My bluesky">
+                        Bluesky
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="contact-category">
             Gamer Tags
-        </h2>
-        <p>
-            Contact me in games:
-        </p>
-        <ul>
-            <li>Steam: soccpuppet</li>
-            <li>Minecraft: socj</li>
-            <li>Warframe: SupremeSocc</li>
-            <li>Cookie Run Kingdom: socjland</li>
-        </ul>
-    </article>
+            <ul>
+                <li>Steam: soccpuppet</li>
+                <li>Minecraft: socj</li>
+                <li>Warframe: SupremeSocc</li>
+                <li>Cookie Run Kingdom: socjland</li>
+            </ul>
+        </li>
+    </menu>
 </main>
 </body>
